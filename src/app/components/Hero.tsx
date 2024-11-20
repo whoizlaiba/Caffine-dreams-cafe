@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className=" h-screen w-full  text-white bg-black flex flex-col justify-center items-center text-center relative"
+      className=" h-screen w-full md:h-fit  text-white bg-black flex flex-col justify-center items-center text-center relative"
     >
       <Image
         src={"/coffee.webp"} 
@@ -32,3 +32,14 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
+
+
+
+
+
+
+
+
+
+
